@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context){
     //返回一个Material风格的组件(Widget就是组件的意思),里面的层级:Material->Scaffold->Center
-    return MaterialApp(
+    return MaterialApp(//这里要";"结束
       // title:"Welcome to Flutter --Material",
       //用Scoffold创建主要文件
       home:Scaffold(
